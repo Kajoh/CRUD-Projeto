@@ -1,0 +1,50 @@
+html{
+
+    height: 100%
+
+}
+
+body{
+
+    height: 100%;
+}
+
+#container{
+
+    height: 100%;
+}
+
+#header{
+
+    height: 15%;
+}
+
+#middle{
+
+    height: 45%;
+}
+
+#alterarDiv{
+
+    display: flex;
+    justify-content: center;
+    height: 30%;
+}
+
+#footer{
+
+    height: 15%;
+}
+ 
+.inputs{
+
+    height: 10%;
+    border-color: darkmagenta;
+    margin: 1;
+}
+.buttons{
+
+    height: 10%;
+    border-color: blueviolet;
+    margin: 0;
+}
