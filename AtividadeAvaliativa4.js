@@ -49,7 +49,7 @@ function listarProduto(){
     for(i=0; i<produtosVetor.length; i++ ){
 
         //variável de lista recebe os nomes dos produtos para cada posição do vetor e um elemento HTML para quebrar a linha fazendo com que a lista fique horizontal no HTML
-        lista += `Produto ${[i+1]}: ${produtosVetor[i].Produto} <br>`
+        lista += `Produto: ${produtosVetor[i].Produto} Marca: ${produtosVetor[i].Marca} <br>`
     }
 
     //div feita para a lista dentro do HTML recebe os elementos listados pela variável lista
@@ -145,7 +145,7 @@ function alterarProduto(){
             
         alert("Campos Obrigaórios não Preenchidos!")
     }
-    
+
     else{
         //Atualiza no objeto desse Produto suas informações
         produtosVetor[indice] = {
